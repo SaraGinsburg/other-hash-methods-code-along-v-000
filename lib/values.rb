@@ -10,5 +10,5 @@ groceries = {
 
 def get_the_values(groceries)
   binding.pry
-  groceries.values
+  groceries.values.flatten
 end
